@@ -1,0 +1,937 @@
+
+#parents-all{
+  margin-right: 5%;
+
+}
+
+#a-children {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+    .parent-a {
+      width: 200px;
+      height: 200px;
+      display: inline-block;
+      border: 1px solid #333;
+      border: 1px solid #792279;
+      position: relative;
+      
+    }
+
+    .child-a-1 {
+      position: absolute;
+      width: 80px;
+      height: 20px;
+      background-color: red;
+      top: 100px;
+      left: -10px;
+      transform: rotate(120deg);
+    }
+
+    
+    .child-a-2 {
+      position: absolute;
+      width: 80px;
+      height: 20px;
+      background-color: red;
+      top: 100px;
+      left: 25px;
+      transform: rotate(-120deg);
+    }
+
+    .child-a-3 {
+      position: absolute;
+      width: 60px;
+      height: 20px;
+      background-color: red;
+      top: 115px;
+      left: 20px;
+    }
+
+
+    .Parent-b {
+      width: 200px;
+      height: 300px;
+      display: inline-block;
+      border: 1px solid #797782;
+      position: absolute;
+      /* left: 50%; */
+    }
+
+    .child-b-1 {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      background-color: rgb(189, 134, 134);
+      top: 100px;
+      left: -10px;
+      rotate: 50%;
+    left: 50%;
+    transform:50%;
+    border-radius: 0px 300px 300px 0px;
+    }
+
+    .child-b-2 {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      background-color: rgb(172, 86, 208);
+      top: 100px;
+      left: -10px;
+      rotate: 50%;
+    left: 50%;
+    transform:50%;
+    border-radius: 0px 300px 300px 0px;
+    }
+
+
+    .child-b-3 {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      background-color: rgb(172, 86, 208);
+      top: 25px;
+      left: -10px;
+      rotate: 50%;
+    left: 50%;
+    transform:50%;
+    border-radius: 0px 300px 300px 0px;
+    }
+  
+    .Parent-c {
+      width: 200px;
+      height: 300px;
+      display: inline-block;
+      border: 1px solid #3d289a;
+      position: absolute;
+      left: 60%;  
+      margin: 5px;}
+
+      .child-c-1 {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        background-color: rgb(92, 43, 113);
+        bottom: 120px;
+      left: 20%;
+      transform:50%;
+      border-radius: 300px 0px 0px 300px;
+
+      }
+.Child-c-2 {
+  position: absolute;
+        width: 100px;
+        height: 90px;
+        background-color: rgb(255, 255, 255);
+        bottom: 135px;
+      left: 30%;
+      transform:50%;
+      border-radius: 300px 0px 0px 300px;
+}
+
+.Parent-d { 
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  border: 1px solid #1c1d1c;
+  position: absolute; 
+  margin: 5px;
+bottom: 50px;
+left: 10px;
+}
+
+  .Child-d-1 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(92, 43, 113);
+    bottom: 90px;
+  left: 20%;
+  transform:50%;
+  border-radius: 300px 0px 0px 300px;
+
+  }
+
+  .child-d-2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    bottom: 120px;
+  left: 38%;
+  transform:50%;
+  border-radius: 300px 0px 0px 300px;
+  }
+
+  .child-d-3 {
+    position: absolute;
+      width: 20px;
+      height: 130px;
+      background-color: rgb(92, 43, 113);
+      top: 15px;
+      left: 140px;
+  }
+ 
+  .Parent-e { 
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    border: 1px solid #1c1d1c;
+    position: absolute; 
+    margin: 5px;
+  bottom: 50px;
+  left: 250px;
+  }
+
+  .child-e-1 {
+    position: absolute;
+      width: 20px;
+      height: 150px;
+      background-color: rgb(92, 43, 113);
+      top: 85px;
+      left: 60px;
+  }
+  
+  .child-e-2 {
+    position: absolute;
+      width: 100px;
+      height: 20px;
+      background-color: rgb(92, 43, 113);
+      top: 85px;
+      left: 60px;
+  }
+  .child-e-3 {
+    position: absolute;
+      width: 100px;
+      height: 20px;
+      background-color: rgb(92, 43, 113);
+      top: 225px;
+      left: 60px;
+  }
+  .child-e-4 {
+    position: absolute;
+      width: 100px;
+      height: 20px;
+      background-color: rgb(92, 43, 113);
+      top: 155px;
+      left: 60px;
+  }
+
+  .Parent-f { 
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    border: 1px solid #1c1d1c;
+    position: absolute; 
+    margin: 5px;
+  bottom: 50px;
+  left: 250px;
+  margin-left: 30%;
+  }
+
+  .child-f-2 {
+    position: absolute;
+      width: 100px;
+      height: 20px;
+      background-color: rgb(92, 43, 113);
+      top: 85px;
+      left: 60px;  }
+  
+
+      .child-f-1 {
+        position: absolute;
+          width: 20px;
+          height: 150px;
+          background-color: rgb(92, 43, 113);
+          top: 85px;
+          left: 60px;
+      }
+      .child-f-3 {
+        position: absolute;
+          width: 100px;
+          height: 20px;
+          background-color: rgb(92, 43, 113);
+          top: 155px;
+          left: 60px;
+      }
+
+      .parent-g{ 
+        width: 200px;
+        height: 300px;
+        display: inline-block;
+        border: 1px solid #1c1d1c;
+        position: absolute; 
+        margin: 5px;
+      bottom: -290px;
+      left: 10px;
+      }
+     
+
+      .child-g-1 {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        background-color: rgb(92, 43, 113);
+        bottom: 90px;
+      left: 20%;
+      transform:50%;
+      border-radius: 300px 0px 0px 300px;
+    
+      }
+      .child-g-2 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 255, 255);
+        bottom: 100px;
+      left: 30%;
+      transform:50%;
+      border-radius: 300px 0px 0px 300px;
+      }
+
+      
+      .child-g-3 {
+        position: absolute;
+          width: 15px;
+          height: 100px;
+          background-color: rgb(92, 43, 113);
+          top: 180px;
+          left: 150px;   }
+
+          .Parent-h{ 
+            width: 200px;
+            height: 300px;
+            display: inline-block;
+            border: 1px solid #1c1d1c;
+            position: absolute; 
+            margin: 5px;
+          bottom: -290px;
+          left: 250px;
+          }
+
+
+          .child-h-1 {
+            position: absolute;
+              width: 20px;
+              height: 150px;
+              background-color: rgb(92, 43, 113);
+              top: 85px;
+              left: 60px; }
+             
+              .child-h-2 {
+                position: absolute;
+                  width: 20px;
+                  height: 150px;
+                  background-color: rgb(92, 43, 113);
+                  top: 85px;
+                  left: 140px; }
+                  .child-h-3 {
+                    position: absolute;
+                      width: 100px;
+                      height: 20px;
+                      background-color: rgb(92, 43, 113);
+                      top: 145px;
+                      left: 60px;
+                  }
+
+                  .Parent-i{ 
+                    width: 200px;
+                    height: 300px;
+                    display: inline-block;
+                    border: 1px solid #1c1d1c;
+                    position: absolute; 
+                    margin: 5px;
+                  bottom: -290px;
+                  left: 490px;
+                  }
+                  .child-i-1 {
+                    position: absolute;
+                      width: 20px;
+                      height: 150px;
+                      background-color: rgb(92, 43, 113);
+                      top: 85px;
+                      left: 60px; }
+                     
+                      .Parent-j{ 
+                        width: 200px;
+                        height: 300px;
+                        display: inline-block;
+                        border: 1px solid #1c1d1c;
+                        position: absolute; 
+                        margin: 5px;
+                      bottom: -650px;
+                      left: 20px;
+                      }
+
+                      .child-j-1 {
+                        position: absolute;
+                          width: 20px;
+                          height: 140px;
+                          background-color: rgb(92, 43, 113);
+                          top: 65px;
+                          left: 130px; }
+
+                          .child-j-3 {position: absolute;
+                            width: 0px;
+                            height: 80px;
+                            background-color: rgb(255, 255, 255);
+                            bottom: 100px;
+                          left: 30%;
+                          transform:50%;
+                          border-radius: 500px 50px 50px 300px;
+                        }
+
+                          .child-j-2 {position: absolute;
+                            width: 100px;
+                            height: 100px;
+                            background-color: rgb(73, 46, 108);
+                            bottom: 70px;
+                          left: 25%;
+                          transform:50%;
+                          border-radius: 90px 90px 90px 90px;}
+
+                          .Parent-k{ 
+                            width: 200px;
+                            height: 300px;
+                            display: inline-block;
+                            border: 1px solid #1c1d1c;
+                            position: absolute; 
+                            margin: 5px;
+                          bottom: -640px;
+                          left: 250px;
+                          
+                          .child-k-1 {
+                            position: absolute;
+                              width: 20px;
+                              height: 170px;
+                              background-color: rgb(92, 43, 113);
+                              top: 85px;
+                              left: 60px; 
+                              }
+                
+                                  .child-k-2 {
+                                    position: absolute;
+                                      width: 100px;
+                                      height: 20px;
+                                      background-color: rgb(92, 43, 113);
+                                      top: 195px;
+                                      left: 60px;
+                                      transform: rotate(50deg);
+                                      
+                                       } 
+                                       .child-k-3 {
+                                        position: absolute;
+                                          width: 100px;
+                                          height: 20px;
+                                          background-color: rgb(92, 43, 113);
+                                          top: 145px;
+                                          left: 60px;
+                                          transform: rotate(-40deg);
+                                          
+                                           } }
+
+                                           .Parent-l{ 
+                                            width: 200px;
+                                            height: 300px;
+                                            display: inline-block;
+                                            border: 1px solid #1c1d1c;
+                                            position: absolute; 
+                                            margin: 5px;
+                                          bottom: -640px;
+                                            left: 480px;
+                                          
+                                            .child-l-1{
+                                              position: absolute;
+                                                width: 20px;
+                                                height: 150px;
+                                                background-color: rgb(92, 43, 113);
+                                                top: 85px;
+                                                left: 60px; }
+                                              
+                                                .child-l-2{
+                                                  position: absolute;
+                                                    width: 100px;
+                                                    height: 20px;
+                                                    background-color: rgb(92, 43, 113);
+                                                    top: 215px;
+                                                    left: 60px; }}
+
+                                                    .Parent-m{ 
+                                                      width: 200px;
+                                                      height: 300px;
+                                                      display: inline-block;
+                                                      border: 1px solid #1c1d1c;
+                                                      position: absolute; 
+                                                      margin: 5px;
+                                                    bottom: -980px;
+                                                    left: 20px;
+
+                                                    .child-m-1{
+                                                      position: absolute;
+                                                        width: 20px;
+                                                        height: 150px;
+                                                        background-color: rgb(92, 43, 113);
+                                                        top: 85px;
+                                                        left: 40px; }
+                                                       
+                                                        .child-m-2{
+                                                          position: absolute;
+                                                            width: 28px;
+                                                            height: 80px;
+                                                            background-color: rgb(92, 43, 113);
+                                                            top: 85px;
+                                                            left: 60px; 
+                                                          transform: rotate(-30deg);}
+
+                                                          .child-m-3{
+                                                            position: absolute;
+                                                              width: 28px;
+                                                              height: 80px;
+                                                              background-color: rgb(92, 43, 113);
+                                                              top: 85px;
+                                                              left: 100px; 
+                                                            transform: rotate(30deg);}
+
+                                                            .child-m-4{
+                                                              position: absolute;
+                                                                width: 20px;
+                                                                height: 150px;
+                                                                background-color: rgb(92, 43, 113);
+                                                                top: 85px;
+                                                                left: 120px;}}  
+                                                                
+                                                                
+                                                                .Parent-n{ 
+                                                                width: 200px;
+                                                                height: 300px;
+                                                                display: inline-block;
+                                                                 border: 1px solid #1c1d1c;
+                                                                 position: absolute; 
+                                                                 margin: 5px;
+                                                                 bottom: -980px;
+                                                                  left: 250px;
+
+                                                                  .child-n-1{
+                                                                    position: absolute;
+                                                                      width: 20px;
+                                                                      height: 150px;
+                                                                      background-color: rgb(92, 43, 113);
+                                                                      top: 85px;
+                                                                      left: 40px; }
+                                                                     
+                                                                      .child-n-2{
+                                                                        position: absolute;
+                                                                          width: 20px;
+                                                                          height: 150px;
+                                                                          background-color: rgb(92, 43, 113);
+                                                                          top: 95px;
+                                                                          left: 80px; 
+                                                                        transform: rotate(-30deg) }
+              
+                                                                          .child-n-3{
+                                                                            position: absolute;
+                                                                              width: 20px;
+                                                                              height: 150px;
+                                                                              background-color: rgb(92, 43, 113);
+                                                                              top: 85px;
+                                                                              left: 120px;}} 
+                                                                              
+                                                                              .Parent-o{ 
+                                                                                width: 200px;
+                                                                                height: 300px;
+                                                                                display: inline-block;
+                                                                                 border: 1px solid #1c1d1c;
+                                                                                 position: absolute; 
+                                                                                 margin: 5px;
+                                                                                 bottom: -980px;
+                                                                                  left: 490px;
+                                                                                
+                                                                                  .child-o-3 {position: absolute;
+                                                                                    width: 100px;
+                                                                                    height: 100px;
+                                                                                    background-color: rgb(255, 255, 255);
+                                                                                    bottom: 90px;
+                                                                                  left: 29%;
+                                                                                  transform:50%;
+                                                                                  border-radius: 90px 90px 90px 90px;}
+
+                                                                                  .child-o-2{position: absolute;
+                                                                                    width: 150px;
+                                                                                    height: 150px;
+                                                                                    background-color: rgb(73, 46, 108);
+                                                                                    bottom: 70px;
+                                                                                  left: 15%;
+                                                                                  transform:50%;
+                                                                                  border-radius: 190px 190px 190px 190px;}
+                                                        
+                                                        
+                                                                                }
+
+                                                                                .Parent-p{ 
+                                                                                  width: 200px;
+                                                                                  height: 300px;
+                                                                                  display: inline-block;
+                                                                                   border: 1px solid #1c1d1c;
+                                                                                   position: absolute; 
+                                                                                   margin: 5px;
+                                                                                   bottom: -1300px;
+                                                                                    left: 20px;
+                                                                                  
+                                                                                    .child-p-3 {position: absolute;
+                                                                                      width: 80px;
+                                                                                      height: 80px;
+                                                                                      background-color: rgb(255, 255, 255);
+                                                                                      bottom: 110px;
+                                                                                    left: 29%;
+                                                                                    transform:50%;
+                                                                                    border-radius: 70px 70px 70px 70px;}
+  
+                                                                                    .child-p-2{position: absolute;
+                                                                                      width: 130px;
+                                                                                      height: 130px;
+                                                                                      background-color: rgb(73, 46, 108);
+                                                                                      bottom: 90px;
+                                                                                    left: 15%;
+                                                                                    transform:50%;
+                                                                                    border-radius: 170px 170px 170px 170px;}
+
+                                                                                    .child-p-1{ position: absolute;
+                                                                                      width: 30px;
+                                                                                      height: 200px;
+                                                                                      background-color: rgb(73, 46, 108);
+                                                                                      top: 95px;
+                                                                                      left: 35px;
+                                                                                      
+                                                                                    }
+                                                                                  }
+                                                                                  .Parent-q{ 
+                                                                                    width: 200px;
+                                                                                    height: 300px;
+                                                                                    display: inline-block;
+                                                                                     border: 1px solid #1c1d1c;
+                                                                                     position: absolute; 
+                                                                                     margin: 5px;
+                                                                                     bottom: -1300px;
+                                                                                      left: 250px;
+                                                                                    
+                                                                                      .child-q-2 {position: absolute;
+                                                                                        width: 80px;
+                                                                                        height: 80px;
+                                                                                        background-color: rgb(255, 255, 255);
+                                                                                        bottom: 110px;
+                                                                                      left: 29%;
+                                                                                      transform:50%;
+                                                                                      border-radius: 70px 70px 70px 70px;}
+    
+                                                                                      .child-q-1{position: absolute;
+                                                                                        width: 130px;
+                                                                                        height: 130px;
+                                                                                        background-color: rgb(73, 46, 108);
+                                                                                        bottom: 90px;
+                                                                                      left: 15%;
+                                                                                      transform:50%;
+                                                                                        border-radius: 170px 170px 170px 170px;}}
+                                                                                       
+                                                                                        .child-q-3{ position: absolute;
+                                                                                          width: 20px;
+                                                                                          height: 80px;
+                                                                                          background-color: rgb(73, 46, 108);
+                                                                                          top: 165px;
+                                                                                          left: 145px;
+                                                                                          transform: rotate(-50deg);
+                                                                                        }
+                                                                                        
+                                                                                        .Parent-r{ 
+                                                                                          width: 200px;
+                                                                                          height: 300px;
+                                                                                          display: inline-block;
+                                                                                           border: 1px solid #1c1d1c;
+                                                                                           position: absolute; 
+                                                                                           margin: 5px;
+                                                                                           bottom: -1300px;
+                                                                                            left: 500px;
+
+                                                                                        .child-r-1 {
+                                                                                          position: absolute;
+                                                                                          width: 30px;
+                                                                                          height: 200px;
+                                                                                          background-color: rgb(92, 43, 113);
+                                                                                          top: 80;
+                                                                                          left: 50px;
+                                                                                        }
+                                                                                        
+                                                                                     
+                                                                                        .child-r-2 {
+                                                                                          position: absolute;
+                                                                                          width: 130px;
+                                                                                          height: 130px;
+                                                                                          background-color: rgb(73, 46, 108);
+                                                                                          top: 50;
+                                                                                          left: 50px;
+                                                                                          border-radius: 0px 150px 150px 0px; 
+                                                                                        }
+                                                                                        
+                                                                                      
+                                                                                        .child-r-3 {
+                                                                                          position: absolute;
+                                                                                          width: 110px;
+                                                                                          height: 110px;
+                                                                                          background-color: white;
+                                                                                          top:80px;
+                                                                                          left:80px;
+                                                                                          border-radius: 50%; 
+                                                                                        }
+                                                                                        
+                                                                                        }
+                                                                                        .Parent-s{ 
+                                                                                          width: 200px;
+                                                                                          height: 300px;
+                                                                                          display: inline-block;
+                                                                                           border: 1px solid #1c1d1c;
+                                                                                           position: absolute; 
+                                                                                           margin: 5px;
+                                                                                           bottom: -1650px;
+                                                                                            left: 20px;
+                                                                                          
+                                                                                          }
+
+                                                                                          .Parent-t{ 
+                                                                                            width: 200px;
+                                                                                            height: 300px;
+                                                                                            display: inline-block;
+                                                                                             border: 1px solid #1c1d1c;
+                                                                                             position: absolute; 
+                                                                                             margin: 5px;
+                                                                                             bottom: -1650px;
+                                                                                              left: 280px;
+                                                                                            
+                                                                                              .child-t-1 {
+                                                                                                position: absolute;
+                                                                                                  width: 100px;
+                                                                                                  height: 20px;
+                                                                                                  background-color: rgb(92, 43, 113);
+                                                                                                  top: 85px;
+                                                                                                  left: 20px;  }
+                                                                                              
+                                                                                            
+                                                                                                  .child-t-2 {
+                                                                                                    position: absolute;
+                                                                                                      width: 20px;
+                                                                                                      height: 150px;
+                                                                                                      background-color: rgb(92, 43, 113);
+                                                                                                      top: 85px;
+                                                                                                      left: 60px;
+                                                                                                  }
+                                                                                                  .child-t-3 {
+                                                                                                    position: absolute;
+                  
+
+                                                                                            }}
+                                                                                            .Parent-u{ 
+                                                                                              width: 200px;
+                                                                                              height: 300px;
+                                                                                              display: inline-block;
+                                                                                               border: 1px solid #000000;
+                                                                                               position: absolute; 
+                                                                                              left: 510px;
+                                                                                               bottom: -1640px;
+                                                                                               
+                                                                                               .child-u-1 {
+                                                                                                position: absolute;
+                                                                                                width: 130px;
+                                                                                                height: 130px;
+                                                                                                background-color: rgb(73, 46, 108);
+                                                                                                top: 150;
+                                                                                                left: 40px;
+                                                                                                border-radius: 0px 0px 15px 15px; 
+                                                                                              }
+
+                                                                                              .child-u-2 {
+                                                                                                position: absolute;
+                                                                                                width: 80px;
+                                                                                                height: 80px;
+                                                                                                background-color: rgb(255, 255, 255);
+                                                                                                top: 150;
+                                                                                                left: 65px;
+                                                                                                border-radius: 0px 0px 15px 15px; 
+                                                                                              }}
+                                                                                              .Parent-v{ 
+                                                                                                width: 200px;
+                                                                                                height: 300px;
+                                                                                                display: inline-block;
+                                                                                                 border: 1px solid #000000;
+                                                                                                 position: absolute; 
+                                                                                                left: 20px;
+                                                                                                 bottom: -2000px;
+                                                                                                
+                                                                                                
+                                                                                              .child-v-1 {
+                                                                                                position: absolute;
+                                                                                                  width: 20px;
+                                                                                                  height: 150px;
+                                                                                                  background-color: rgb(92, 43, 113);
+                                                                                                  top: 85px;
+                                                                                                  left: 40px; 
+                                                                                                transform: rotate(-30deg); }
+                                                                                              
+                                                                                            
+                                                                                                  .child-v-2 {
+                                                                                                    position: absolute;
+                                                                                                      width: 20px;
+                                                                                                      height: 140px;
+                                                                                                      background-color: rgb(92, 43, 113);
+                                                                                                      top: 89px;
+                                                                                                      left: 108px;
+                                                                                                    transform: rotate(30deg);}}
+                                                                                                   
+                                                                                                    .Parent-w{ 
+                                                                                                      width: 200px;
+                                                                                                      height: 300px;
+                                                                                                      display: inline-block;
+                                                                                                       border: 1px solid #000000;
+                                                                                                       position: absolute; 
+                                                                                                      left: 260px;
+                                                                                                       bottom: -2000px;
+                                                                                                       transform: scale(-1);
+
+                                                                                                       .child-w-1{
+                                                                                                        position: absolute;
+                                                                                                          width: 20px;
+                                                                                                          height: 150px;
+                                                                                                          background-color: rgb(92, 43, 113);
+                                                                                                          top: 85px;
+                                                                                                          left: 40px; }
+
+                                                                                                       .child-w-2{
+                                                                                                        position: absolute;
+                                                                                                          width: 28px;
+                                                                                                          height: 80px;
+                                                                                                          background-color: rgb(92, 43, 113);
+                                                                                                          top: 85px;
+                                                                                                          left: 60px; 
+                                                                                                        transform: rotate(-30deg);}
+                                              
+                                                                                                        .child-w-3{
+                                                                                                          position: absolute;
+                                                                                                            width: 28px;
+                                                                                                            height: 80px;
+                                                                                                            background-color: rgb(92, 43, 113);
+                                                                                                            top: 85px;
+                                                                                                            left: 100px; 
+                                                                                                          transform: rotate(30deg);}
+                                              
+                                                                                                          .child-w-4{
+                                                                                                            position: absolute;
+                                                                                                              width: 20px;
+                                                                                                              height: 150px;
+                                                                                                              background-color: rgb(92, 43, 113);
+                                                                                                              top: 85px;
+                                                                                                              left: 120px;}}
+                                                                                                              .Parent-x{ 
+                                                                                                                width: 200px;
+                                                                                                                height: 300px;
+                                                                                                                display: inline-block;
+                                                                                                                 border: 1px solid #000000;
+                                                                                                                 position: absolute; 
+                                                                                                                left: 500px;
+                                                                                                                 bottom: -2000px;
+                                                                                                                
+                                                                                                                
+                                                                                                              .child-x-1 {
+                                                                                                                position: absolute;
+                                                                                                                  width: 20px;
+                                                                                                                  height: 150px;
+                                                                                                                  background-color: rgb(92, 43, 113);
+                                                                                                                  top: 80px;
+                                                                                                                  left: 90px; 
+                                                                                                                transform: rotate(-35deg); }
+                                                                                                              
+                                                                                                            
+                                                                                                                  .child-x-2 {
+                                                                                                                    position: absolute;
+                                                                                                                      width: 20px;
+                                                                                                                      height: 140px;
+                                                                                                                      background-color: rgb(92, 43, 113);
+                                                                                                                      top: 89px;
+                                                                                                                      left: 108px;
+                                                                                                                    transform: rotate(30deg);}}   
+
+                                                                                                                    .Parent-y{ 
+                                                                                                                      width: 200px;
+                                                                                                                      height: 300px;
+                                                                                                                      display: inline-block;
+                                                                                                                       border: 1px solid #000000;
+                                                                                                                       position: absolute; 
+                                                                                                                      left: -490px;
+                                                                                                                       bottom: -370px;
+                                                                                                                      
+                                                                                                                    .child-y-1 {
+                                                                                                                      position: absolute;
+                                                                                                                        width: 20px;
+                                                                                                                        height: 80px;
+                                                                                                                        background-color: rgb(92, 43, 113);
+                                                                                                                        top: 80px;
+                                                                                                                        left: 90px; 
+                                                                                                                      transform: rotate(-35deg); }
+                                                                                                                    
+                                                                                                                  
+                                                                                                                        .child-y-2 {
+                                                                                                                          position: absolute;
+                                                                                                                            width: 20px;
+                                                                                                                            height: 140px;
+                                                                                                                            background-color: rgb(92, 43, 113);
+                                                                                                                            top: 89px;
+                                                                                                                            left: 108px;
+                                                                                                                          transform: rotate(30deg);}}  
+                                                                                                                         
+                                                                                                                          .Parent-z{ 
+                                                                                                                            width: 200px;
+                                                                                                                            height: 300px;
+                                                                                                                            display: inline-block;
+                                                                                                                             border: 1px solid #000000;
+                                                                                                                             position: absolute; 
+                                                                                                                            left: 250px;
+                                                                                                                             bottom: -5px;
+                                                                                                                             
+                                                                                                                             
+                                                                                                                          
+                                                                                                                             
+                                                                                                                              
+                                                                                                                             .child-z-1{
+                                                                                                                              position: absolute;
+                                                                                                                                width: 20px;
+                                                                                                                                height: 120px;
+                                                                                                                                background-color: rgb(92, 43, 113);
+                                                                                                                                top: 55px;
+                                                                                                                                left: 80px;
+                                                                                                                              rotate: 90deg; }
+                                                                                                                               
+                                                                                                                                .child-z-2{
+                                                                                                                                  position: absolute;
+                                                                                                                                    width: 20px;
+                                                                                                                                    height: 150px;
+                                                                                                                                    background-color: rgb(92, 43, 113);
+                                                                                                                                    top: 95px;
+                                                                                                                                    left: 80px; 
+                                                                                                                                  transform: rotate( 50deg)  }
+                                                                        
+                                                                                                                                    .child-z-3{
+                                                                                                                                      position: absolute;
+                                                                                                                                        width: 20px;
+                                                                                                                                        height: 120px;
+                                                                                                                                        background-color: rgb(92, 43, 113);
+                                                                                                                                        top: 149px;
+                                                                                                                                        left: 90px;  rotate: 90deg;}
+                                                                                                                            }
+                                                                                                                    
+                                                                                          
+                                                                                        
+  
+
+
+                                                                              
+                                                                
+
+                                                                
+                                                                
+                                                                
